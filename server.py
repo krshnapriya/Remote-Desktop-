@@ -1,5 +1,3 @@
-
-# Server.py of 'Remote Desktop'
 import socket 
 import tkinter as tk 
 from tkinter.messagebox import showinfo 
