@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+
 # Server.py of 'Remote Desktop'
-import socket # For network connections
-import tkinter as tk # To create a graphical user interface
-from tkinter.messagebox import showinfo # To give alerts
-from random import randint # To pick a random number
+import socket 
+import tkinter as tk 
+from tkinter.messagebox import showinfo 
+from random import randint 
 
 def type_box():
     tp_fr = tk.Tk()
@@ -55,7 +55,3 @@ menubar = tk.Menu(root)
 menubar.add_command(label="Type", command=type_box)
 root.config(menu = menubar)
 root.mainloop()
-# Created by vismodo: https://github.com/vismodo/
-# Email: vismaya.atreya@outlook.com
-# Repository: https://github.com/vismodo/Remote-Desktop (Remote Desktop)
-# Python Version: 3.9
