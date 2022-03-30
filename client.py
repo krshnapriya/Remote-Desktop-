@@ -30,6 +30,6 @@ while True:
                 pg.moveTo(x, y)
             message = 'done' 
 
-        client_socket.close()  # close the connection
+        client_socket.close()  
     except:
         pass
